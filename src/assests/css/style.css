@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+.form-outer{
+    background-color: white!important;
+    color: #d49168 ;
+}
+.form-inner{
+    width: 96%;
+}
+.add-btn{
+    background-color:  #6c757d !important;
+    color: white !important;
+    border: 2px solid white !important;
+    width: 100px;
+}
+.error-text{
+    color: red !important;
+    font-size: 12px;
+    text-align: center;
+}
+.no-data-text{
+    font-size: 20px;
+    color: black;
+    font-weight: 600 !important;
+    text-align: center;
+    margin-top: 20px !important;
+}
+.tabel-view{
+    margin-top: 50px !important;
+}
+
+.tabel-view th {
+    font-size: 12px !important;
+}
+.tabel-view td{
+    font-size: 12px;
+}
+.save-btn{
+    width: 20% !important;
+    margin: 0 auto !important;
+    background-color: #d49168 !important;
+    border: 2px solid white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .added-data{
+        height: 30px;
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+    .adding-data-field{
+        height: 30px;
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+    .add-btn{
+        background-color:  #6c757d !important;
+        color: black !important;
+        border: 2px solid white !important;
+    }
+    .form-outer{
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+   
+    .add-btn{
+        background-color:  #6c757d !important;
+        color: black !important;
+        width: 100%;    
+        border: 2px solid white !important;
+    }
+    .save-btn{
+        width: 100% !important;
+        margin: 0 auto !important;
+        background-color: #d49168 !important;
+        border: 2px solid white !important;
+    }
+    .tab-heading{
+        font-size: 12px !important;
+    }
+  }
+
+  @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .add-btn{
+        background-color:  #6c757d !important;
+        color: white !important;
+        border: 2px solid white !important;
+        width: 80px;
+        font-size: 10px !important;
+    }
+}

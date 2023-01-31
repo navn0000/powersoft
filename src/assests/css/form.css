@@ -1,0 +1,21 @@
+.form-feilds-inner{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+.btn-save{
+    background-color: #d49168 !important;
+    color: black;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-feilds-inner{
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+    }
+}
